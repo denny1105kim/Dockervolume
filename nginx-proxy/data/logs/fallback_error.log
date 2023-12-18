@@ -1,0 +1,358 @@
+2023/12/14 21:59:12 [error] 174#174: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.21.0.1, server: nginxproxymanager, request: "GET /api/ HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "localhost:50081", referrer: "http://localhost:50081/"
+2023/12/14 22:27:21 [warn] 236#236: 512 worker_connections are not enough, reusing connections
+2023/12/14 22:27:21 [alert] 236#236: 512 worker_connections are not enough
+2023/12/14 22:27:22 [warn] 236#236: 512 worker_connections are not enough, reusing connections
+2023/12/14 22:27:22 [alert] 236#236: 512 worker_connections are not enough
+2023/12/14 22:27:28 [warn] 236#236: 512 worker_connections are not enough, reusing connections
+2023/12/14 22:27:28 [alert] 236#236: 512 worker_connections are not enough
+2023/12/14 22:27:28 [error] 237#237: *2160 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "www.swjbs.com"
+2023/12/14 22:29:50 [warn] 249#249: 512 worker_connections are not enough, reusing connections
+2023/12/14 22:29:50 [alert] 249#249: 512 worker_connections are not enough
+2023/12/14 22:33:35 [warn] 249#249: 512 worker_connections are not enough, reusing connections
+2023/12/14 22:33:35 [alert] 249#249: 512 worker_connections are not enough
+2023/12/14 22:36:22 [warn] 249#249: 512 worker_connections are not enough, reusing connections
+2023/12/14 22:36:22 [alert] 249#249: 512 worker_connections are not enough
+2023/12/14 22:36:38 [warn] 249#249: 512 worker_connections are not enough, reusing connections
+2023/12/14 22:36:38 [alert] 249#249: 512 worker_connections are not enough
+2023/12/14 22:36:57 [warn] 249#249: 512 worker_connections are not enough, reusing connections
+2023/12/14 22:36:57 [alert] 249#249: 512 worker_connections are not enough
+2023/12/14 22:39:31 [warn] 249#249: 512 worker_connections are not enough, reusing connections
+2023/12/14 22:39:31 [alert] 249#249: 512 worker_connections are not enough
+2023/12/14 22:39:41 [warn] 249#249: 512 worker_connections are not enough, reusing connections
+2023/12/14 22:39:41 [alert] 249#249: 512 worker_connections are not enough
+2023/12/14 22:44:38 [warn] 290#290: 512 worker_connections are not enough, reusing connections
+2023/12/14 22:44:39 [warn] 290#290: 512 worker_connections are not enough, reusing connections
+2023/12/14 22:44:39 [alert] 290#290: 512 worker_connections are not enough
+2023/12/14 22:44:40 [alert] 290#290: 512 worker_connections are not enough
+2023/12/14 22:44:40 [alert] 290#290: 512 worker_connections are not enough
+2023/12/14 22:44:41 [alert] 290#290: 512 worker_connections are not enough
+2023/12/14 22:44:43 [alert] 290#290: 512 worker_connections are not enough
+2023/12/14 22:44:44 [alert] 290#290: 512 worker_connections are not enough
+2023/12/14 22:44:44 [alert] 290#290: 512 worker_connections are not enough
+2023/12/14 22:44:46 [warn] 290#290: 512 worker_connections are not enough, reusing connections
+2023/12/14 22:44:46 [alert] 290#290: 512 worker_connections are not enough
+2023/12/14 22:44:46 [alert] 290#290: 512 worker_connections are not enough
+2023/12/14 22:44:47 [warn] 290#290: 512 worker_connections are not enough, reusing connections
+2023/12/14 22:44:47 [alert] 290#290: 512 worker_connections are not enough
+2023/12/14 22:44:47 [alert] 290#290: 512 worker_connections are not enough
+2023/12/14 22:44:49 [alert] 290#290: 512 worker_connections are not enough
+2023/12/14 22:44:50 [alert] 290#290: 512 worker_connections are not enough
+2023/12/14 22:44:50 [warn] 290#290: 512 worker_connections are not enough, reusing connections
+2023/12/14 22:44:50 [alert] 290#290: 512 worker_connections are not enough
+2023/12/14 22:44:52 [alert] 290#290: 512 worker_connections are not enough
+2023/12/14 22:44:53 [alert] 290#290: 512 worker_connections are not enough
+2023/12/14 22:44:54 [alert] 290#290: 512 worker_connections are not enough
+2023/12/14 22:44:54 [alert] 290#290: 512 worker_connections are not enough
+2023/12/14 22:44:54 [warn] 290#290: 512 worker_connections are not enough, reusing connections
+2023/12/14 22:44:54 [alert] 290#290: 512 worker_connections are not enough
+2023/12/14 22:44:54 [alert] 290#290: 512 worker_connections are not enough
+2023/12/14 22:44:55 [alert] 290#290: 512 worker_connections are not enough
+2023/12/14 22:44:55 [alert] 290#290: 512 worker_connections are not enough
+2023/12/14 22:44:56 [alert] 290#290: 512 worker_connections are not enough
+2023/12/14 22:44:57 [alert] 290#290: 512 worker_connections are not enough
+2023/12/14 22:44:58 [alert] 290#290: 512 worker_connections are not enough
+2023/12/14 22:44:59 [alert] 290#290: 512 worker_connections are not enough
+2023/12/14 22:45:01 [alert] 290#290: 512 worker_connections are not enough
+2023/12/14 22:45:02 [alert] 290#290: 512 worker_connections are not enough
+2023/12/14 22:45:04 [alert] 290#290: 512 worker_connections are not enough
+2023/12/14 22:45:05 [alert] 290#290: 512 worker_connections are not enough
+2023/12/14 22:45:07 [alert] 290#290: 512 worker_connections are not enough
+2023/12/14 22:45:56 [warn] 290#290: 512 worker_connections are not enough, reusing connections
+2023/12/14 22:45:56 [alert] 290#290: 512 worker_connections are not enough
+2023/12/14 22:46:01 [warn] 290#290: 512 worker_connections are not enough, reusing connections
+2023/12/14 22:46:01 [alert] 290#290: 512 worker_connections are not enough
+2023/12/14 22:46:01 [alert] 290#290: 512 worker_connections are not enough
+2023/12/14 23:02:43 [warn] 200#200: 512 worker_connections are not enough, reusing connections
+2023/12/14 23:02:43 [alert] 200#200: 512 worker_connections are not enough
+2023/12/14 23:02:43 [error] 201#201: *1257 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2023/12/14 23:05:33 [warn] 218#218: 512 worker_connections are not enough, reusing connections
+2023/12/14 23:05:33 [alert] 218#218: 512 worker_connections are not enough
+2023/12/14 23:05:33 [error] 219#219: *2436 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "14.47.26.148", referrer: "http://14.47.26.148/"
+2023/12/14 23:07:01 [alert] 232#232: 512 worker_connections are not enough
+2023/12/14 23:07:02 [alert] 232#232: 512 worker_connections are not enough
+2023/12/14 23:09:34 [warn] 232#232: 512 worker_connections are not enough, reusing connections
+2023/12/14 23:09:34 [alert] 232#232: 512 worker_connections are not enough
+2023/12/14 23:09:40 [warn] 232#232: 512 worker_connections are not enough, reusing connections
+2023/12/14 23:09:40 [alert] 232#232: 512 worker_connections are not enough
+2023/12/14 23:11:29 [warn] 232#232: 512 worker_connections are not enough, reusing connections
+2023/12/14 23:11:29 [alert] 232#232: 512 worker_connections are not enough
+2023/12/14 23:11:51 [warn] 232#232: 512 worker_connections are not enough, reusing connections
+2023/12/14 23:11:51 [alert] 232#232: 512 worker_connections are not enough
+2023/12/14 23:27:54 [alert] 178#178: 512 worker_connections are not enough
+2023/12/14 23:27:56 [alert] 178#178: 512 worker_connections are not enough
+2023/12/14 23:28:02 [alert] 204#204: 512 worker_connections are not enough
+2023/12/14 23:28:13 [alert] 204#204: 512 worker_connections are not enough
+2023/12/14 23:30:01 [warn] 204#204: 512 worker_connections are not enough, reusing connections
+2023/12/14 23:30:01 [alert] 204#204: 512 worker_connections are not enough
+2023/12/14 23:34:00 [warn] 218#218: 512 worker_connections are not enough, reusing connections
+2023/12/14 23:34:00 [alert] 218#218: 512 worker_connections are not enough
+2023/12/14 23:43:02 [warn] 231#231: 512 worker_connections are not enough, reusing connections
+2023/12/14 23:43:02 [alert] 231#231: 512 worker_connections are not enough
+2023/12/14 23:45:58 [warn] 244#244: 512 worker_connections are not enough, reusing connections
+2023/12/14 23:45:58 [alert] 244#244: 512 worker_connections are not enough
+2023/12/14 23:46:05 [alert] 244#244: 512 worker_connections are not enough
+2023/12/14 23:46:28 [warn] 244#244: 512 worker_connections are not enough, reusing connections
+2023/12/14 23:46:28 [alert] 244#244: 512 worker_connections are not enough
+2023/12/14 23:48:03 [warn] 244#244: 512 worker_connections are not enough, reusing connections
+2023/12/14 23:48:03 [alert] 244#244: 512 worker_connections are not enough
+2023/12/14 23:48:24 [warn] 244#244: 512 worker_connections are not enough, reusing connections
+2023/12/14 23:48:24 [warn] 246#246: 512 worker_connections are not enough, reusing connections
+2023/12/14 23:48:25 [warn] 244#244: 512 worker_connections are not enough, reusing connections
+2023/12/14 23:48:25 [warn] 246#246: 512 worker_connections are not enough, reusing connections
+2023/12/14 23:48:25 [alert] 244#244: 512 worker_connections are not enough
+2023/12/14 23:48:25 [alert] 244#244: 512 worker_connections are not enough
+2023/12/14 23:48:31 [warn] 244#244: 512 worker_connections are not enough, reusing connections
+2023/12/14 23:48:31 [alert] 244#244: 512 worker_connections are not enough
+2023/12/14 23:48:31 [alert] 244#244: 512 worker_connections are not enough
+2023/12/14 23:48:31 [alert] 244#244: 512 worker_connections are not enough
+2023/12/14 23:48:32 [warn] 244#244: 512 worker_connections are not enough, reusing connections
+2023/12/14 23:48:32 [warn] 246#246: 512 worker_connections are not enough, reusing connections
+2023/12/14 23:48:32 [alert] 244#244: 512 worker_connections are not enough
+2023/12/14 23:48:41 [warn] 244#244: 512 worker_connections are not enough, reusing connections
+2023/12/14 23:48:41 [warn] 246#246: 512 worker_connections are not enough, reusing connections
+2023/12/14 23:48:41 [alert] 246#246: 512 worker_connections are not enough
+2023/12/14 23:48:41 [alert] 246#246: 512 worker_connections are not enough
+2023/12/14 23:48:41 [alert] 244#244: 512 worker_connections are not enough
+2023/12/14 23:48:41 [alert] 244#244: 512 worker_connections are not enough
+2023/12/14 23:48:42 [alert] 244#244: 512 worker_connections are not enough
+2023/12/14 23:48:51 [warn] 244#244: 512 worker_connections are not enough, reusing connections
+2023/12/14 23:48:52 [warn] 244#244: 512 worker_connections are not enough, reusing connections
+2023/12/14 23:48:52 [alert] 244#244: 512 worker_connections are not enough
+2023/12/14 23:51:26 [warn] 203#203: 512 worker_connections are not enough, reusing connections
+2023/12/14 23:51:26 [alert] 203#203: 512 worker_connections are not enough
+2023/12/14 23:51:27 [alert] 203#203: 512 worker_connections are not enough
+2023/12/14 23:51:35 [warn] 203#203: 512 worker_connections are not enough, reusing connections
+2023/12/14 23:51:35 [warn] 204#204: 512 worker_connections are not enough, reusing connections
+2023/12/14 23:51:37 [alert] 203#203: 512 worker_connections are not enough
+2023/12/14 23:51:39 [alert] 203#203: 512 worker_connections are not enough
+2023/12/14 23:54:24 [warn] 203#203: 512 worker_connections are not enough, reusing connections
+2023/12/14 23:54:24 [alert] 203#203: 512 worker_connections are not enough
+2023/12/14 23:55:22 [error] 178#178: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: nginxproxymanager, request: "GET /api/ HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "localhost:50081", referrer: "http://localhost:50081/nginx/proxy"
+2023/12/14 23:55:37 [alert] 203#203: 512 worker_connections are not enough
+2023/12/14 23:55:38 [alert] 203#203: 512 worker_connections are not enough
+2023/12/14 23:55:41 [alert] 203#203: 512 worker_connections are not enough
+2023/12/14 23:55:47 [warn] 203#203: 512 worker_connections are not enough, reusing connections
+2023/12/14 23:55:47 [alert] 203#203: 512 worker_connections are not enough
+2023/12/14 23:55:47 [alert] 203#203: 512 worker_connections are not enough
+2023/12/14 23:55:49 [alert] 203#203: 512 worker_connections are not enough
+2023/12/14 23:59:32 [error] 177#177: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: nginxproxymanager, request: "GET /api/ HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "localhost:50081", referrer: "http://localhost:50081/nginx/proxy"
+2023/12/14 23:59:37 [warn] 177#177: 512 worker_connections are not enough, reusing connections
+2023/12/14 23:59:37 [alert] 177#177: 512 worker_connections are not enough
+2023/12/14 23:59:49 [warn] 202#202: 512 worker_connections are not enough, reusing connections
+2023/12/14 23:59:50 [alert] 202#202: 512 worker_connections are not enough
+2023/12/14 23:59:50 [alert] 202#202: 512 worker_connections are not enough
+2023/12/15 00:00:09 [warn] 202#202: 512 worker_connections are not enough, reusing connections
+2023/12/15 00:00:10 [warn] 202#202: 512 worker_connections are not enough, reusing connections
+2023/12/15 00:00:10 [alert] 202#202: 512 worker_connections are not enough
+2023/12/15 00:00:10 [alert] 202#202: 512 worker_connections are not enough
+2023/12/15 00:00:10 [alert] 202#202: 512 worker_connections are not enough
+2023/12/15 00:00:10 [alert] 202#202: 512 worker_connections are not enough
+2023/12/15 00:00:10 [alert] 202#202: 512 worker_connections are not enough
+2023/12/15 00:00:10 [alert] 202#202: 512 worker_connections are not enough
+2023/12/15 00:00:11 [alert] 202#202: 512 worker_connections are not enough
+2023/12/15 00:00:27 [warn] 202#202: 512 worker_connections are not enough, reusing connections
+2023/12/15 00:00:27 [alert] 202#202: 512 worker_connections are not enough
+2023/12/15 00:05:52 [warn] 202#202: 512 worker_connections are not enough, reusing connections
+2023/12/15 00:05:52 [alert] 202#202: 512 worker_connections are not enough
+2023/12/15 00:13:58 [warn] 206#206: 512 worker_connections are not enough, reusing connections
+2023/12/15 00:13:58 [alert] 206#206: 512 worker_connections are not enough
+2023/12/15 00:14:00 [alert] 206#206: 512 worker_connections are not enough
+2023/12/15 00:14:01 [alert] 206#206: 512 worker_connections are not enough
+2023/12/15 00:15:12 [warn] 219#219: 512 worker_connections are not enough, reusing connections
+2023/12/15 00:15:12 [alert] 219#219: 512 worker_connections are not enough
+2023/12/15 00:18:42 [warn] 219#219: 512 worker_connections are not enough, reusing connections
+2023/12/15 00:18:42 [alert] 219#219: 512 worker_connections are not enough
+2023/12/15 00:18:44 [alert] 219#219: 512 worker_connections are not enough
+2023/12/15 00:18:46 [alert] 219#219: 512 worker_connections are not enough
+2023/12/15 00:18:49 [alert] 219#219: 512 worker_connections are not enough
+2023/12/15 00:27:35 [alert] 245#245: 512 worker_connections are not enough
+2023/12/15 00:27:37 [alert] 245#245: 512 worker_connections are not enough
+2023/12/15 00:28:12 [warn] 258#258: 512 worker_connections are not enough, reusing connections
+2023/12/15 00:28:13 [alert] 258#258: 512 worker_connections are not enough
+2023/12/15 00:29:31 [warn] 258#258: 512 worker_connections are not enough, reusing connections
+2023/12/15 00:29:31 [alert] 258#258: 512 worker_connections are not enough
+2023/12/15 00:30:39 [error] 179#179: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: nginxproxymanager, request: "GET /api/ HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "localhost:50081", referrer: "http://localhost:50081/nginx/proxy"
+2023/12/15 00:32:50 [warn] 248#248: 512 worker_connections are not enough, reusing connections
+2023/12/15 00:32:50 [alert] 248#248: 512 worker_connections are not enough
+2023/12/15 00:32:52 [alert] 248#248: 512 worker_connections are not enough
+2023/12/15 00:42:23 [warn] 233#233: 512 worker_connections are not enough, reusing connections
+2023/12/15 00:42:23 [alert] 233#233: 512 worker_connections are not enough
+2023/12/15 00:46:58 [warn] 233#233: 512 worker_connections are not enough, reusing connections
+2023/12/15 00:46:58 [alert] 233#233: 512 worker_connections are not enough
+2023/12/15 00:46:58 [error] 234#234: *1569 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "14.47.26.148"
+2023/12/15 00:49:49 [warn] 203#203: 512 worker_connections are not enough, reusing connections
+2023/12/15 00:49:49 [alert] 203#203: 512 worker_connections are not enough
+2023/12/15 00:49:51 [alert] 203#203: 512 worker_connections are not enough
+2023/12/15 00:49:53 [alert] 203#203: 512 worker_connections are not enough
+2023/12/15 00:50:53 [alert] 228#228: 512 worker_connections are not enough
+2023/12/15 00:53:45 [error] 178#178: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: nginxproxymanager, request: "GET /api/ HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "localhost:50081", referrer: "http://localhost:50081/nginx/proxy"
+2023/12/15 00:55:44 [warn] 233#233: 512 worker_connections are not enough, reusing connections
+2023/12/15 00:55:44 [alert] 233#233: 512 worker_connections are not enough
+2023/12/15 00:55:50 [warn] 233#233: 512 worker_connections are not enough, reusing connections
+2023/12/15 00:55:50 [alert] 233#233: 512 worker_connections are not enough
+2023/12/15 00:58:41 [alert] 273#273: 512 worker_connections are not enough
+2023/12/15 00:59:06 [alert] 282#282: 512 worker_connections are not enough
+2023/12/15 02:58:03 [alert] 236#236: 512 worker_connections are not enough
+2023/12/15 02:58:03 [error] 237#237: *1087 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "14.47.26.148"
+2023/12/15 03:06:58 [error] 236#236: *1091 open() "/var/www/html/admin/config.php" failed (2: No such file or directory), client: 78.153.140.222, server: localhost-nginx-proxy-manager, request: "GET /admin/config.php HTTP/1.1", host: "14.47.26.148"
+2023/12/15 08:01:57 [error] 340#340: *1151 open() "/var/www/html/.env" failed (2: No such file or directory), client: 78.153.140.219, server: localhost-nginx-proxy-manager, request: "GET /.env HTTP/1.1", host: "14.47.26.148"
+2023/12/15 10:52:06 [alert] 397#397: 512 worker_connections are not enough
+2023/12/15 10:52:06 [error] 398#398: *2194 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "14.47.26.148"
+2023/12/15 11:37:11 [error] 416#416: *2209 open() "/var/www/html/.vscode/sftp.json" failed (2: No such file or directory), client: 139.144.150.23, server: localhost-nginx-proxy-manager, request: "GET /.vscode/sftp.json HTTP/1.1", host: "14.47.26.148"
+2023/12/15 11:37:12 [error] 416#416: *2210 open() "/var/www/html/about" failed (2: No such file or directory), client: 139.144.150.23, server: localhost-nginx-proxy-manager, request: "GET /about HTTP/1.1", host: "14.47.26.148"
+2023/12/15 11:37:12 [error] 416#416: *2211 open() "/var/www/html/debug/default/view" failed (2: No such file or directory), client: 139.144.150.23, server: localhost-nginx-proxy-manager, request: "GET /debug/default/view?panel=config HTTP/1.1", host: "14.47.26.148"
+2023/12/15 11:37:13 [error] 416#416: *2212 open() "/var/www/html/v2/_catalog" failed (2: No such file or directory), client: 139.144.150.23, server: localhost-nginx-proxy-manager, request: "GET /v2/_catalog HTTP/1.1", host: "14.47.26.148"
+2023/12/15 11:37:13 [error] 416#416: *2213 open() "/var/www/html/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application" failed (2: No such file or directory), client: 139.144.150.23, server: localhost-nginx-proxy-manager, request: "GET /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application HTTP/1.1", host: "14.47.26.148"
+2023/12/15 11:37:14 [error] 416#416: *2214 open() "/var/www/html/server-status" failed (2: No such file or directory), client: 139.144.150.23, server: localhost-nginx-proxy-manager, request: "GET /server-status HTTP/1.1", host: "14.47.26.148"
+2023/12/15 11:37:14 [error] 416#416: *2215 open() "/var/www/html/login.action" failed (2: No such file or directory), client: 139.144.150.23, server: localhost-nginx-proxy-manager, request: "GET /login.action HTTP/1.1", host: "14.47.26.148"
+2023/12/15 11:37:15 [error] 416#416: *2216 open() "/var/www/html/_all_dbs" failed (2: No such file or directory), client: 139.144.150.23, server: localhost-nginx-proxy-manager, request: "GET /_all_dbs HTTP/1.1", host: "14.47.26.148"
+2023/12/15 11:37:15 [error] 416#416: *2217 open() "/var/www/html/.DS_Store" failed (2: No such file or directory), client: 139.144.150.23, server: localhost-nginx-proxy-manager, request: "GET /.DS_Store HTTP/1.1", host: "14.47.26.148"
+2023/12/15 11:37:16 [error] 416#416: *2218 open() "/var/www/html/.env" failed (2: No such file or directory), client: 139.144.150.23, server: localhost-nginx-proxy-manager, request: "GET /.env HTTP/1.1", host: "14.47.26.148"
+2023/12/15 11:37:16 [error] 416#416: *2219 open() "/var/www/html/.git/config" failed (2: No such file or directory), client: 139.144.150.23, server: localhost-nginx-proxy-manager, request: "GET /.git/config HTTP/1.1", host: "14.47.26.148"
+2023/12/15 11:37:17 [error] 416#416: *2220 open() "/var/www/html/s/834313e26323e27343e24313/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties" failed (2: No such file or directory), client: 139.144.150.23, server: localhost-nginx-proxy-manager, request: "GET /s/834313e26323e27343e24313/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties HTTP/1.1", host: "14.47.26.148"
+2023/12/15 11:37:17 [error] 416#416: *2221 open() "/var/www/html/config.json" failed (2: No such file or directory), client: 139.144.150.23, server: localhost-nginx-proxy-manager, request: "GET /config.json HTTP/1.1", host: "14.47.26.148"
+2023/12/15 11:37:18 [error] 416#416: *2222 open() "/var/www/html/telescope/requests" failed (2: No such file or directory), client: 139.144.150.23, server: localhost-nginx-proxy-manager, request: "GET /telescope/requests HTTP/1.1", host: "14.47.26.148"
+2023/12/15 12:24:10 [alert] 435#435: 512 worker_connections are not enough
+2023/12/15 12:24:10 [error] 436#436: *3243 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "14.47.26.148"
+2023/12/15 12:34:32 [alert] 435#435: 512 worker_connections are not enough
+2023/12/15 12:34:32 [error] 436#436: *4252 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "14.47.26.148"
+2023/12/15 15:26:02 [error] 501#501: *4327 open() "/var/www/html/systembc/password.php" failed (2: No such file or directory), client: 185.134.22.149, server: localhost-nginx-proxy-manager, request: "GET /systembc/password.php HTTP/1.1", host: "14.47.26.148"
+2023/12/15 15:26:03 [error] 501#501: *4328 open() "/var/www/html/Ep1v" failed (2: No such file or directory), client: 185.134.22.149, server: localhost-nginx-proxy-manager, request: "GET /Ep1v HTTP/1.1", host: "14.47.26.148"
+2023/12/15 15:26:05 [error] 501#501: *4329 open() "/var/www/html/GWqN" failed (2: No such file or directory), client: 185.134.22.149, server: localhost-nginx-proxy-manager, request: "GET /GWqN HTTP/1.1", host: "14.47.26.148"
+2023/12/15 17:47:01 [alert] 539#539: 512 worker_connections are not enough
+2023/12/15 17:47:01 [error] 540#540: *5372 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "14.47.26.148"
+2023/12/15 18:01:07 [alert] 539#539: 512 worker_connections are not enough
+2023/12/15 18:01:07 [error] 540#540: *6385 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "14.47.26.148"
+2023/12/15 18:26:48 [error] 558#558: *6397 open() "/var/www/html/System/configurationFile" failed (2: No such file or directory), client: 103.125.146.11, server: localhost-nginx-proxy-manager, request: "GET /System/configurationFile?auth=YWRtaW46MTEK HTTP/1.1", host: "14.47.26.148"
+2023/12/15 18:26:49 [error] 558#558: *6398 open() "/var/www/html/current_config/passwd" failed (2: No such file or directory), client: 103.125.146.3, server: localhost-nginx-proxy-manager, request: "GET /current_config/passwd HTTP/1.1", host: "14.47.26.148"
+2023/12/15 18:26:51 [error] 558#558: *6399 open() "/var/www/html/current_config/Account1" failed (2: No such file or directory), client: 103.125.146.20, server: localhost-nginx-proxy-manager, request: "GET /current_config/Account1 HTTP/1.1", host: "14.47.26.148"
+2023/12/15 18:26:51 [error] 558#558: *6400 open() "/var/www/html/mnt/mtd/Config/Account1" failed (2: No such file or directory), client: 103.125.146.14, server: localhost-nginx-proxy-manager, request: "GET /mnt/mtd/Config/Account1 HTTP/1.1", host: "14.47.26.148"
+2023/12/15 21:54:05 [error] 624#624: *6426 open() "/var/www/html/portal/redlion" failed (2: No such file or directory), client: 107.170.238.40, server: localhost-nginx-proxy-manager, request: "GET /portal/redlion HTTP/1.1", host: "14.47.26.148"
+2023/12/15 23:26:21 [error] 178#178: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.30.1.254, server: nginxproxymanager, request: "GET /api/ HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "www.swjbs.com:50081", referrer: "http://www.swjbs.com:50081/nginx/proxy"
+2023/12/16 00:26:36 [error] 176#176: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.30.1.254, server: nginxproxymanager, request: "GET /api/ HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "www.swjbs.com:50081", referrer: "http://www.swjbs.com:50081/nginx/proxy"
+2023/12/16 02:35:30 [error] 178#178: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.30.1.254, server: nginxproxymanager, request: "GET /api/ HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "www.swjbs.com:50081", referrer: "http://www.swjbs.com:50081/nginx/proxy"
+2023/12/16 02:35:36 [error] 178#178: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.30.1.254, server: nginxproxymanager, request: "GET /api/nginx/access-lists?expand=items,clients HTTP/1.1", upstream: "http://127.0.0.1:3000/nginx/access-lists?expand=items,clients", host: "www.swjbs.com:50081", referrer: "http://www.swjbs.com:50081/nginx/proxy"
+2023/12/16 02:35:36 [error] 178#178: *3 connect() failed (111: Connection refused) while connecting to upstream, client: 172.30.1.254, server: nginxproxymanager, request: "GET /api/nginx/certificates HTTP/1.1", upstream: "http://127.0.0.1:3000/nginx/certificates", host: "www.swjbs.com:50081", referrer: "http://www.swjbs.com:50081/nginx/proxy"
+2023/12/16 02:37:15 [warn] 148#148: server name "swjbs.com/home" has suspicious symbols in /data/nginx/proxy_host/5.conf:18
+2023/12/16 02:50:15 [error] 154#154: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.30.1.254, server: nginxproxymanager, request: "GET /api/ HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "www.swjbs.com:50081", referrer: "http://www.swjbs.com:50081/nginx/proxy"
+2023/12/16 03:08:06 [error] 154#154: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.30.1.254, server: nginxproxymanager, request: "GET /api/ HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "www.swjbs.com:50081", referrer: "http://www.swjbs.com:50081/nginx/proxy"
+2023/12/16 03:45:00 [error] 155#155: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.30.1.254, server: nginxproxymanager, request: "GET /api/ HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "www.swjbs.com:50081", referrer: "http://www.swjbs.com:50081/nginx/proxy"
+2023/12/16 04:39:34 [error] 235#235: *54 open() "/var/www/html/home" failed (2: No such file or directory), client: 172.30.1.254, server: localhost-nginx-proxy-manager, request: "GET /home HTTP/1.1", host: "swjbs.com"
+2023/12/16 04:39:36 [error] 235#235: *54 open() "/var/www/html/home" failed (2: No such file or directory), client: 172.30.1.254, server: localhost-nginx-proxy-manager, request: "GET /home HTTP/1.1", host: "swjbs.com"
+2023/12/16 04:39:45 [error] 235#235: *54 open() "/var/www/html/home" failed (2: No such file or directory), client: 172.30.1.254, server: localhost-nginx-proxy-manager, request: "GET /home HTTP/1.1", host: "swjbs.com"
+2023/12/16 04:40:03 [error] 235#235: *54 open() "/var/www/html/home" failed (2: No such file or directory), client: 172.30.1.254, server: localhost-nginx-proxy-manager, request: "GET /home HTTP/1.1", host: "swjbs.com"
+2023/12/16 04:44:57 [error] 155#155: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.30.1.254, server: nginxproxymanager, request: "GET /api/ HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "www.swjbs.com:50081", referrer: "http://www.swjbs.com:50081/nginx/proxy"
+2023/12/16 05:04:23 [error] 155#155: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.30.1.254, server: nginxproxymanager, request: "GET /api/ HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "www.swjbs.com:50081", referrer: "http://www.swjbs.com:50081/nginx/proxy"
+2023/12/16 05:07:10 [alert] 213#213: *17 open socket #4 left in connection 8
+2023/12/16 05:07:10 [alert] 213#213: aborting
+2023/12/16 17:47:44 [error] 171#171: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 14.63.125.249, server: nginxproxymanager, request: "GET /api/ HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "www.swjbs.com:50081", referrer: "http://www.swjbs.com:50081/nginx/proxy"
+2023/12/16 18:08:32 [error] 268#268: *71 open() "/var/www/html/gerrit" failed (2: No such file or directory), client: 14.63.125.249, server: localhost-nginx-proxy-manager, request: "GET /gerrit HTTP/1.1", host: "swjbs.com"
+2023/12/16 18:08:37 [error] 268#268: *71 "/var/www/html/gerrit/index.html" is not found (2: No such file or directory), client: 14.63.125.249, server: localhost-nginx-proxy-manager, request: "GET /gerrit/ HTTP/1.1", host: "swjbs.com"
+2023/12/16 18:08:53 [error] 268#268: *71 "/var/www/html/gerrit/index.html" is not found (2: No such file or directory), client: 14.63.125.249, server: localhost-nginx-proxy-manager, request: "GET /gerrit/ HTTP/1.1", host: "swjbs.com"
+2023/12/16 18:09:17 [error] 268#268: *71 "/var/www/html/gerrit/index.html" is not found (2: No such file or directory), client: 14.63.125.249, server: localhost-nginx-proxy-manager, request: "GET /gerrit/ HTTP/1.1", host: "swjbs.com"
+2023/12/16 18:09:21 [error] 268#268: *71 "/var/www/html/home/index.html" is not found (2: No such file or directory), client: 14.63.125.249, server: localhost-nginx-proxy-manager, request: "GET /home/ HTTP/1.1", host: "swjbs.com"
+2023/12/16 18:09:21 [error] 268#268: *71 "/var/www/html/home/index.html" is not found (2: No such file or directory), client: 14.63.125.249, server: localhost-nginx-proxy-manager, request: "GET /home/ HTTP/1.1", host: "swjbs.com"
+2023/12/16 18:09:23 [error] 268#268: *71 "/var/www/html/home/index.html" is not found (2: No such file or directory), client: 14.63.125.249, server: localhost-nginx-proxy-manager, request: "GET /home/ HTTP/1.1", host: "swjbs.com"
+2023/12/16 18:11:13 [error] 168#168: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 14.63.125.249, server: nginxproxymanager, request: "GET /api/ HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "www.swjbs.com:50081", referrer: "http://www.swjbs.com:50081/nginx/proxy"
+2023/12/16 18:11:50 [error] 210#210: *13 "/var/www/html/home/index.html" is not found (2: No such file or directory), client: 14.63.125.249, server: localhost-nginx-proxy-manager, request: "GET /home/ HTTP/1.1", host: "swjbs.com"
+2023/12/16 18:11:50 [error] 210#210: *13 "/var/www/html/home/index.html" is not found (2: No such file or directory), client: 14.63.125.249, server: localhost-nginx-proxy-manager, request: "GET /home/ HTTP/1.1", host: "swjbs.com"
+2023/12/16 18:11:50 [error] 210#210: *13 "/var/www/html/home/index.html" is not found (2: No such file or directory), client: 14.63.125.249, server: localhost-nginx-proxy-manager, request: "GET /home/ HTTP/1.1", host: "swjbs.com"
+2023/12/16 18:11:51 [warn] 210#210: 512 worker_connections are not enough, reusing connections
+2023/12/16 18:11:51 [alert] 210#210: 512 worker_connections are not enough
+2023/12/16 18:11:51 [error] 211#211: *1164 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "swjbs.com", referrer: "http://swjbs.com/home/"
+2023/12/16 18:11:52 [error] 211#211: *1166 "/var/www/html/home/index.html" is not found (2: No such file or directory), client: 14.63.125.249, server: localhost-nginx-proxy-manager, request: "GET /home/ HTTP/1.1", host: "swjbs.com"
+2023/12/16 18:11:52 [error] 211#211: *1166 "/var/www/html/home/index.html" is not found (2: No such file or directory), client: 14.63.125.249, server: localhost-nginx-proxy-manager, request: "GET /home/ HTTP/1.1", host: "swjbs.com"
+2023/12/16 18:11:58 [error] 211#211: *1166 open() "/var/www/html/gerrit" failed (2: No such file or directory), client: 14.63.125.249, server: localhost-nginx-proxy-manager, request: "GET /gerrit HTTP/1.1", host: "swjbs.com"
+2023/12/16 18:12:00 [error] 211#211: *1166 open() "/var/www/html/gerrit" failed (2: No such file or directory), client: 14.63.125.249, server: localhost-nginx-proxy-manager, request: "GET /gerrit HTTP/1.1", host: "swjbs.com"
+2023/12/16 18:19:47 [error] 170#170: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 14.63.125.249, server: nginxproxymanager, request: "GET /api/ HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "www.swjbs.com:50081", referrer: "http://www.swjbs.com:50081/nginx/proxy"
+2023/12/16 18:21:07 [error] 194#194: *13 open() "/var/www/html/home:8100" failed (2: No such file or directory), client: 14.63.125.249, server: localhost-nginx-proxy-manager, request: "GET /home:8100 HTTP/1.1", host: "swjbs.com"
+2023/12/16 18:22:13 [error] 194#194: *13 open() "/var/www/html/gerrit" failed (2: No such file or directory), client: 14.63.125.249, server: localhost-nginx-proxy-manager, request: "GET /gerrit HTTP/1.1", host: "swjbs.com"
+2023/12/16 18:31:54 [error] 153#153: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 14.63.125.249, server: nginxproxymanager, request: "GET /api/ HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "www.swjbs.com:50081", referrer: "http://www.swjbs.com:50081/nginx/proxy"
+2023/12/16 19:23:15 [error] 153#153: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 222.106.6.13, server: nginxproxymanager, request: "GET /api/ HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "www.swjbs.com:50081", referrer: "http://www.swjbs.com:50081/nginx/proxy"
+2023/12/16 19:29:45 [error] 173#173: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 222.106.6.13, server: nginxproxymanager, request: "GET /api/ HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "www.swjbs.com:50081", referrer: "http://www.swjbs.com:50081/nginx/proxy"
+2023/12/16 19:30:20 [error] 196#196: *10 open() "/var/www/html/home:8100" failed (2: No such file or directory), client: 222.106.6.13, server: localhost-nginx-proxy-manager, request: "GET /home:8100 HTTP/1.1", host: "swjbs.com"
+2023/12/16 19:30:25 [error] 196#196: *10 open() "/var/www/html/home/:8100" failed (2: No such file or directory), client: 222.106.6.13, server: localhost-nginx-proxy-manager, request: "GET /home/:8100 HTTP/1.1", host: "swjbs.com"
+2023/12/16 19:45:35 [error] 157#157: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 222.106.6.13, server: nginxproxymanager, request: "GET /api/ HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "www.swjbs.com:50081", referrer: "http://www.swjbs.com:50081/nginx/proxy"
+2023/12/16 19:49:53 [error] 195#195: *31 open() "/var/www/html/.env" failed (2: No such file or directory), client: 159.100.13.152, server: localhost-nginx-proxy-manager, request: "GET /.env HTTP/1.1", host: "14.47.26.148"
+2023/12/17 16:00:42 [error] 165#165: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 220.78.169.174, server: nginxproxymanager, request: "GET /api/ HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "www.swjbs.com:50081", referrer: "http://www.swjbs.com:50081/nginx/proxy"
+2023/12/17 16:05:51 [error] 154#154: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 220.78.169.174, server: nginxproxymanager, request: "GET /api/ HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "www.swjbs.com:50081", referrer: "http://www.swjbs.com:50081/nginx/proxy"
+2023/12/17 16:15:40 [error] 171#171: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 220.78.169.174, server: nginxproxymanager, request: "GET /api/ HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "www.swjbs.com:50081", referrer: "http://www.swjbs.com:50081/nginx/proxy"
+2023/12/17 17:38:57 [alert] 197#197: 512 worker_connections are not enough
+2023/12/17 17:38:57 [error] 196#196: *1021 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "14.47.26.148"
+2023/12/17 18:33:56 [error] 155#155: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 220.78.169.174, server: nginxproxymanager, request: "GET /api/ HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "www.swjbs.com:50081", referrer: "http://www.swjbs.com:50081/nginx/proxy"
+2023/12/17 21:32:00 [error] 155#155: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.30.1.254, server: nginxproxymanager, request: "GET /api/ HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "www.swjbs.com:50081", referrer: "http://www.swjbs.com:50081/nginx/proxy"
+2023/12/17 21:53:41 [error] 154#154: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.30.1.254, server: nginxproxymanager, request: "GET /api/ HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "www.swjbs.com:50081", referrer: "http://www.swjbs.com:50081/nginx/proxy"
+2023/12/17 23:01:05 [error] 154#154: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.30.1.254, server: nginxproxymanager, request: "GET /api/ HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "www.swjbs.com:50081", referrer: "http://www.swjbs.com:50081/nginx/proxy"
+2023/12/17 23:08:47 [warn] 198#198: 512 worker_connections are not enough, reusing connections
+2023/12/17 23:08:47 [alert] 198#198: 512 worker_connections are not enough
+2023/12/17 23:08:47 [error] 199#199: *1064 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "14.47.26.148"
+2023/12/17 23:51:56 [error] 171#171: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.30.1.254, server: nginxproxymanager, request: "GET /api/ HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "www.swjbs.com:50081", referrer: "http://www.swjbs.com:50081/nginx/proxy"
+2023/12/18 00:21:30 [error] 154#154: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.30.1.254, server: nginxproxymanager, request: "GET /api/ HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "www.swjbs.com:50081", referrer: "http://www.swjbs.com:50081/nginx/proxy"
+2023/12/18 00:31:41 [error] 154#154: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.30.1.254, server: nginxproxymanager, request: "GET /api/ HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "www.swjbs.com:50081", referrer: "http://www.swjbs.com:50081/nginx/proxy"
+2023/12/18 00:37:17 [error] 154#154: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.30.1.254, server: nginxproxymanager, request: "GET /api/ HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "www.swjbs.com:50081", referrer: "http://www.swjbs.com:50081/nginx/proxy"
+2023/12/18 00:52:02 [error] 154#154: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.30.1.254, server: nginxproxymanager, request: "GET /api/ HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "www.swjbs.com:50081", referrer: "http://www.swjbs.com:50081/nginx/proxy"
+2023/12/18 01:06:01 [error] 171#171: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.30.1.254, server: nginxproxymanager, request: "GET /api/ HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "www.swjbs.com:50081", referrer: "http://www.swjbs.com:50081/nginx/proxy"
+2023/12/18 01:17:35 [warn] 213#213: 512 worker_connections are not enough, reusing connections
+2023/12/18 01:17:35 [alert] 213#213: 512 worker_connections are not enough
+2023/12/18 01:17:35 [error] 214#214: *1016 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2023/12/18 01:17:42 [alert] 213#213: 512 worker_connections are not enough
+2023/12/18 01:17:42 [error] 214#214: *2054 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "14.47.26.148", referrer: "http://14.47.26.148/"
+2023/12/18 01:23:54 [error] 171#171: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.30.1.254, server: nginxproxymanager, request: "GET /api/ HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "www.swjbs.com:50081", referrer: "http://www.swjbs.com:50081/nginx/proxy"
+2023/12/18 01:42:37 [error] 173#173: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.30.1.254, server: nginxproxymanager, request: "GET /api/ HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "www.swjbs.com:50081", referrer: "http://www.swjbs.com:50081/nginx/proxy"
+2023/12/18 01:43:03 [alert] 173#173: *3 open socket #26 left in connection 9
+2023/12/18 01:43:03 [alert] 173#173: aborting
+2023/12/18 02:03:47 [error] 154#154: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.30.1.254, server: nginxproxymanager, request: "GET /api/ HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "www.swjbs.com:50081", referrer: "http://www.swjbs.com:50081/nginx/proxy"
+2023/12/18 02:30:19 [error] 171#171: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.30.1.254, server: nginxproxymanager, request: "GET /api/ HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "www.swjbs.com:50081", referrer: "http://www.swjbs.com:50081/nginx/proxy"
+2023/12/18 02:32:22 [error] 171#171: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.30.1.254, server: nginxproxymanager, request: "GET /api/ HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "www.swjbs.com:50081", referrer: "http://www.swjbs.com:50081/nginx/proxy"
+2023/12/18 02:34:25 [error] 171#171: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.30.1.254, server: nginxproxymanager, request: "GET /api/ HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "www.swjbs.com:50081", referrer: "http://www.swjbs.com:50081/nginx/proxy"
+2023/12/18 03:21:50 [error] 172#172: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.30.1.254, server: nginxproxymanager, request: "GET /api/tokens HTTP/1.1", upstream: "http://127.0.0.1:3000/tokens", host: "www.swjbs.com:50081", referrer: "http://www.swjbs.com:50081/nginx/proxy"
+2023/12/18 03:21:50 [error] 172#172: *3 connect() failed (111: Connection refused) while connecting to upstream, client: 172.30.1.254, server: nginxproxymanager, request: "GET /api/ HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "www.swjbs.com:50081", referrer: "http://www.swjbs.com:50081/nginx/proxy"
+2023/12/18 03:32:10 [error] 171#171: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.30.1.254, server: nginxproxymanager, request: "GET /api/ HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "www.swjbs.com:50081", referrer: "http://www.swjbs.com:50081/nginx/proxy"
+2023/12/18 03:41:53 [error] 172#172: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.30.1.254, server: nginxproxymanager, request: "GET /api/tokens HTTP/1.1", upstream: "http://127.0.0.1:3000/tokens", host: "www.swjbs.com:50081", referrer: "http://www.swjbs.com:50081/nginx/proxy"
+2023/12/18 03:41:59 [error] 172#172: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.30.1.254, server: nginxproxymanager, request: "GET /api/ HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "www.swjbs.com:50081", referrer: "http://www.swjbs.com:50081/nginx/proxy"
+2023/12/18 04:02:15 [error] 172#172: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.30.1.254, server: nginxproxymanager, request: "GET /api/ HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "www.swjbs.com:50081", referrer: "http://www.swjbs.com:50081/nginx/proxy"
+2023/12/18 04:03:48 [error] 154#154: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.30.1.254, server: nginxproxymanager, request: "GET /api/ HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "www.swjbs.com:50081", referrer: "http://www.swjbs.com:50081/nginx/proxy"
+2023/12/18 04:20:23 [error] 154#154: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.30.1.254, server: nginxproxymanager, request: "GET /api/ HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "www.swjbs.com:50081", referrer: "http://www.swjbs.com:50081/nginx/proxy"
+2023/12/18 04:56:40 [error] 196#196: *26 open() "/var/www/html/form.html" failed (2: No such file or directory), client: 170.64.194.245, server: localhost-nginx-proxy-manager, request: "GET /form.html HTTP/1.1", host: "14.47.26.148"
+2023/12/18 04:56:41 [error] 196#196: *27 open() "/var/www/html/upl.php" failed (2: No such file or directory), client: 170.64.194.245, server: localhost-nginx-proxy-manager, request: "GET /upl.php HTTP/1.1", host: "14.47.26.148"
+2023/12/18 04:56:41 [error] 196#196: *29 "/var/www/html/geoip/index.html" is not found (2: No such file or directory), client: 170.64.194.245, server: localhost-nginx-proxy-manager, request: "GET /geoip/ HTTP/1.1", host: "14.47.26.148"
+2023/12/18 04:56:42 [alert] 196#196: 512 worker_connections are not enough
+2023/12/18 04:56:42 [error] 199#199: *1036 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "14.47.26.148"
+2023/12/18 04:56:43 [error] 196#196: *1038 open() "/var/www/html/1.php" failed (2: No such file or directory), client: 170.64.194.245, server: localhost-nginx-proxy-manager, request: "GET /1.php HTTP/1.1", host: "14.47.26.148"
+2023/12/18 04:56:44 [alert] 196#196: 512 worker_connections are not enough
+2023/12/18 04:56:44 [error] 199#199: *2045 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /bundle.js HTTP/1.1", upstream: "http://127.0.0.1:80/bundle.js", host: "14.47.26.148"
+2023/12/18 04:56:45 [error] 196#196: *2047 "/var/www/html/files/index.html" is not found (2: No such file or directory), client: 170.64.194.245, server: localhost-nginx-proxy-manager, request: "GET /files/ HTTP/1.1", host: "14.47.26.148"
+2023/12/18 04:56:46 [error] 196#196: *2048 open() "/var/www/html/systembc/password.php" failed (2: No such file or directory), client: 170.64.194.245, server: localhost-nginx-proxy-manager, request: "GET /systembc/password.php HTTP/1.1", host: "14.47.26.148"
+2023/12/18 04:56:46 [error] 196#196: *2049 open() "/var/www/html/password.php" failed (2: No such file or directory), client: 170.64.194.245, server: localhost-nginx-proxy-manager, request: "GET /password.php HTTP/1.1", host: "14.47.26.148"
+2023/12/18 04:56:47 [error] 196#196: *2050 open() "/var/www/html/info.php" failed (2: No such file or directory), client: 170.64.194.245, server: localhost-nginx-proxy-manager, request: "GET /info.php HTTP/1.1", host: "14.47.26.148"
+2023/12/18 07:59:37 [error] 256#256: *2069 open() "/var/www/html/WuEL" failed (2: No such file or directory), client: 195.170.172.128, server: localhost-nginx-proxy-manager, request: "GET /WuEL HTTP/1.1", host: "14.47.26.148"
+2023/12/18 07:59:39 [error] 256#256: *2071 open() "/var/www/html/a" failed (2: No such file or directory), client: 195.170.172.128, server: localhost-nginx-proxy-manager, request: "GET /a HTTP/1.1", host: "14.47.26.148"
+2023/12/18 07:59:41 [error] 256#256: *2072 open() "/var/www/html/download/file.ext" failed (2: No such file or directory), client: 195.170.172.128, server: localhost-nginx-proxy-manager, request: "GET /download/file.ext HTTP/1.1", host: "14.47.26.148"
+2023/12/18 07:59:42 [error] 256#256: *2073 open() "/var/www/html/SiteLoader" failed (2: No such file or directory), client: 195.170.172.128, server: localhost-nginx-proxy-manager, request: "GET /SiteLoader HTTP/1.1", host: "14.47.26.148"
+2023/12/18 07:59:43 [error] 256#256: *2074 open() "/var/www/html/mPlayer" failed (2: No such file or directory), client: 195.170.172.128, server: localhost-nginx-proxy-manager, request: "GET /mPlayer HTTP/1.1", host: "14.47.26.148"
+2023/12/18 08:36:55 [error] 275#275: *2081 open() "/var/www/html/actuator/health" failed (2: No such file or directory), client: 192.241.210.27, server: localhost-nginx-proxy-manager, request: "GET /actuator/health HTTP/1.1", host: "14.47.26.148"
+2023/12/18 11:22:16 [error] 341#341: *2142 open() "/var/www/html/goform/SystemCommand" failed (2: No such file or directory), client: 149.50.96.45, server: localhost-nginx-proxy-manager, request: "POST /goform/SystemCommand HTTP/1.1", host: "14.47.26.148:80", referrer: "http://14.47.26.148:80/adm/system_command.asp"
+2023/12/18 11:30:28 [error] 341#341: *2145 open() "/var/www/html/goform/SystemCommand" failed (2: No such file or directory), client: 149.50.96.45, server: localhost-nginx-proxy-manager, request: "POST /goform/SystemCommand HTTP/1.1", host: "14.47.26.148:80", referrer: "http://14.47.26.148:80/adm/system_command.asp"
+2023/12/18 13:17:58 [error] 360#360: *2159 open() "/var/www/html/goform/SystemCommand" failed (2: No such file or directory), client: 149.50.96.45, server: localhost-nginx-proxy-manager, request: "POST /goform/SystemCommand HTTP/1.1", host: "14.47.26.148:80", referrer: "http://14.47.26.148:80/adm/system_command.asp"
+2023/12/18 15:40:48 [alert] 238#238: 512 worker_connections are not enough
+2023/12/18 16:21:14 [error] 251#251: *668 "/var/www/html/login/index.html" is not found (2: No such file or directory), client: 212.113.119.236, server: localhost-nginx-proxy-manager, request: "GET /login/ HTTP/1.1", host: "14.47.26.148"
+2023/12/18 16:22:46 [warn] 264#264: 512 worker_connections are not enough, reusing connections
+2023/12/18 16:22:46 [alert] 264#264: 512 worker_connections are not enough
+2023/12/18 16:22:55 [warn] 264#264: 512 worker_connections are not enough, reusing connections
+2023/12/18 16:22:55 [alert] 264#264: 512 worker_connections are not enough
+2023/12/18 16:22:58 [warn] 264#264: 512 worker_connections are not enough, reusing connections
+2023/12/18 16:22:58 [alert] 264#264: 512 worker_connections are not enough
+2023/12/18 16:23:01 [warn] 264#264: 512 worker_connections are not enough, reusing connections
+2023/12/18 16:23:01 [alert] 264#264: 512 worker_connections are not enough
+2023/12/18 16:23:04 [warn] 264#264: 512 worker_connections are not enough, reusing connections
+2023/12/18 16:23:04 [alert] 264#264: 512 worker_connections are not enough
+2023/12/18 16:23:09 [alert] 264#264: 512 worker_connections are not enough
+2023/12/18 16:23:12 [alert] 264#264: 512 worker_connections are not enough
+2023/12/18 16:23:40 [alert] 277#277: 512 worker_connections are not enough
+2023/12/18 16:23:48 [alert] 277#277: 512 worker_connections are not enough
+2023/12/18 16:24:13 [alert] 290#290: 512 worker_connections are not enough
+2023/12/18 16:24:15 [warn] 290#290: 512 worker_connections are not enough, reusing connections
+2023/12/18 16:24:15 [alert] 290#290: 512 worker_connections are not enough
+2023/12/18 16:24:20 [alert] 290#290: 512 worker_connections are not enough
+2023/12/18 16:24:54 [warn] 290#290: 512 worker_connections are not enough, reusing connections
+2023/12/18 16:24:54 [alert] 290#290: 512 worker_connections are not enough
