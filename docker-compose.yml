@@ -1,0 +1,59 @@
+version: '3.0'
+
+services:
+  nginx-proxy:
+    image: jc21/nginx-proxy-manager:latest
+    container_name: nginx-proxy
+    hostname: nginx-proxy
+    restart: unless-stopped
+    volumes:
+      - ./nginx-proxy/data:/data
+      - ./nginx-proxy/letsencrypt:/etc/letsencrypt:z
+    environment:
+      - TZ=Asia/Seoul
+    ports:
+      - 80:80
+      - 443:443
+      - 50081:81
+    networks:
+      myserver:
+        ipv4_address: 172.18.1.102
+  gerrit:
+    image: gerritcodereview/gerrit:3.8.0-ubuntu22
+    user: root
+    hostname: gerrit
+    container_name: gerrit
+    ports:
+      - "29418:29418"
+    volumes:
+      - ./gerrit/db:/var/gerrit/db
+      - ./gerrit/etc:/var/gerrit/etc
+      - ./gerrit/git:/var/gerrit/git
+      - ./gerrit/index:/var/gerrit/index
+      - ./gerrit/plugins:/var/gerrit/plugins
+    environment:
+      - CANONICAL_WEB_URL=http://www.swjbs.com:8100/gerrit/
+    networks:
+      myserver:
+        ipv4_address: 172.18.1.103
+  apache:
+    image: httpd
+    user: root
+    hostname: apache
+    container_name: apache
+    volumes:
+      - ./apache2/httpd/httpd.conf:/usr/local/apache2/conf/httpd.conf
+      - ./apache2/httpd/.htpasswd:/usr/local/apache2/conf/.htpasswd
+      - ./apache2/home:/usr/local/apache2/htdocs/home
+    ports:
+      - "8100:80"
+    networks:
+      myserver:
+        ipv4_address: 172.18.1.104
+networks:
+  myserver:
+    ipam:
+      driver: default
+      config:
+        - subnet: 172.18.1.100/16
+
