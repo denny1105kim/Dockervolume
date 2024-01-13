@@ -1,14 +1,65 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to /home</title>
+    <title>SWJBS</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #000;
+            color: #fff;
+            margin: -8em 0 0 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+            justify-content: center;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+	header {
+            display: flex;
+            justify-content: flex-end;
+            width: 100%;
+            padding: 1em;
+	    position: fixed;
+	    top: 0;
+        }
+
+        header a {
+            color: white;
+            text-decoration: none;
+	    margin-left: 0.5em;
+        }
+	footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            width: 100%;
+            position: fixed;
+            bottom: 0;
+	    font-size: 0.8em;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to /home</h1>
-    <p>This is a simple page served by Apache from the /home path.</p>
+	<header>
+	<a href="https://swjbs.com" style="margin-right: 1em;">home</a>
+	<a href="https://swjbs.com/project" style="margin-right: 1em;">project</a>
+        <a href="https://swjbs.com/support" style="margin-right: 2em;">support</a>
+        <a href="https://swjbs.com/blog" style="margin-right: 2em" target="_blank">blog</a>
+    </header>
+    <h1>SWJBS</h1>
+
+    <footer>
+        &copy; 2024 swjbs made by jaehyeon. All rights reserved.
+    </footer>
 </body>
 </html>

@@ -32,7 +32,7 @@ services:
       - ./gerrit/index:/var/gerrit/index
       - ./gerrit/plugins:/var/gerrit/plugins
     environment:
-      - CANONICAL_WEB_URL=http://www.swjbs.com:8100/gerrit/
+      - CANONICAL_WEB_URL=http://swjbs.com:8101
     networks:
       myserver:
         ipv4_address: 172.18.1.103
@@ -44,12 +44,64 @@ services:
     volumes:
       - ./apache2/httpd/httpd.conf:/usr/local/apache2/conf/httpd.conf
       - ./apache2/httpd/.htpasswd:/usr/local/apache2/conf/.htpasswd
-      - ./apache2/home:/usr/local/apache2/htdocs/home
+      - ./apache2/home:/usr/local/apache2/htdocs/
     ports:
       - "8100:80"
     networks:
       myserver:
         ipv4_address: 172.18.1.104
+  gerrit_apache:
+    image: httpd
+    user: root
+    hostname: gerrit_apache
+    container_name: gerrit_apache
+    volumes:
+      - ./gerrit_apache2/httpd/httpd.conf:/usr/local/apache2/conf/httpd.conf
+      - ./gerrit_apache2/httpd/.htpasswd:/usr/local/apache2/conf/.htpasswd
+    ports:
+      - "8101:80"
+    networks:
+      myserver:
+        ipv4_address: 172.18.1.105
+  jenkins:
+    privileged: true
+    hostname : jenkins
+    container_name: jenkins
+    build:
+      context: ./jenkins
+      dockerfile: Dockerfile
+    restart: always
+    ports:
+      - "8080:8080"
+    expose:
+      - "8080"
+    volumes:
+      - './jenkins/jenkins_home:/var/jenkins_home'
+      - '/var/run/docker.sock:/var/run/docker.sock'
+    environment:
+      TZ: "Asia/Seoul"
+    networks:
+      myserver:
+        ipv4_address: 172.18.1.106
+  mariadb:
+    container_name: "mariadb"
+    image: mariadb:10
+    restart: always
+    ports:
+        - 3306:3306
+    volumes:
+        - "./mariadb/conf.d:/etc/mysql/conf.d"
+        - "./mariadb/data:/var/lib/mysql"
+    environment:
+        TZ: "Asia/Seoul"
+        MARIADB_DATABASE: "administrator"
+        MARIADB_USER: "pon98142"
+        MARIADB_PASSWORD: 72008364
+        MARIADB_ROOT_PASSWORD: 72008364
+    restart: always
+    networks:
+      myserver:
+        ipv4_address: 172.18.1.107
 networks:
   myserver:
     ipam:

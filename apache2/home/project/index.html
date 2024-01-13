@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SWJBS_PROJECT</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #000;
+            color: #fff;
+            margin: -8em 0 0 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+            justify-content: center;
+        }
+
+        h1 {
+            font-size: 2em;
+            margin: 0;
+        }
+
+        header {
+            display: flex;
+            justify-content: flex-end;
+            width: 100%;
+            padding: 1em;
+            position: fixed;
+            top: 0;
+        }
+
+        header a {
+            color: white;
+            text-decoration: none;
+            margin-left: 0.5em;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            width: 100%;
+            position: fixed;
+            bottom: 0;
+	    font-size : 0.8em;
+        }
+
+        .sub-header {
+            font-size: 1.2em;
+            margin-top: 2em;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 1em;
+        }
+
+        .button {
+            background-color: #fff;
+            color: #000;
+            border: none;
+            padding: 0.5em 1em;
+            margin: 0 1em;
+            text-decoration: none;
+            font-size: 1em;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="https://swjbs.com" style="margin-right: 1em;">home</a>
+        <a href="https://swjbs.com/project" style="margin-right: 1em;">project</a>
+        <a href="https://swjbs.com/support" style="margin-right: 2em;">support</a>
+        <a href="https://swjbs.com/blog" style="margin-right: 2em;" target="_blank">blog</a>
+    </header>
+
+    <h1>SWJBS_PROJECT</h1>
+
+    <div class="sub-header">
+        <p>Click on the desired URL:</p>
+    </div>
+
+    <div class="button-container">
+        <a href="http://swjbs.com:8101" class="button" target="_blank">SWJBS_GERRIT</a>
+	<a href="http://swjbs.com:8080" class="button" target="_blank">SWJBS_JENKINS</a>
+    </div>
+
+    <footer>
+        &copy; 2024 swjbs made by jaehyeon. All rights reserved.
+    </footer>
+</body>
+</html>
